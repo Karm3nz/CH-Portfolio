@@ -1,14 +1,20 @@
-# Your Project Title
+# CH Responsive Portfolio
 
 ## Description 
+Hello there!
+
+My name is Carmen Hui. A little bit about myself... I've pet hamster that is in her mid 20s, I love watching whodunnit films, and I am studying web development.
+
+This is my responsive portfolio webpage. The creation of this webpage is to be able to continue to build upon it throughout the up coming weeks and months to not only display the knowledge and skills gained, but to also practice what I have learned thus far. I trust that by the end of the program I will be able to present a more complex, dynamic portfolio page!
 
 
-
- A good one takes advantage of the opportunity to explain and showcase what your application does, justify the technologies used, and even talk about some of the challenges you faced and features you hope to implement in the future. 
+A good one takes advantage of the opportunity to explain and showcase what your application does, justify the technologies used, and even talk about some of the challenges you faced and features you hope to implement in the future. 
 
 At a minimum, your project README needs a title and a short description explaining the what, why, and how. What was your motivation? 
 Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") 
-What problem does it solve? What did you learn? What makes your project stand out? 
+What problem does it solve? 
+
+What did you learn? What makes your project stand out? 
 If your project has a lot of features, consider adding a heading called "Features" and listing them here.
 
 If you're new to Markdown, read the GitHub guide on [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
@@ -44,13 +50,11 @@ https://forum.freecodecamp.org/t/make-navbar-toggler-open-on-the-right-instead-o
 Webpage Background:
 https://www.toptal.com/designers/subtlepatterns/
 
-List your collaborators, if any, with links to their GitHub profiles.
+Navbar, toggles, buttons, forms, grid:
+https://getbootstrap.com/
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-
+Sticky footer:
+https://www.w3schools.com/howto/howto_css_fixed_footer.asp
 
 ## License
 

@@ -21,11 +21,10 @@ a:hover {
 .container {
     padding-top: 50px;
     padding-bottom: 130px;
-    min-width: 500px;
+    min-width: 450px;
 }
-
 .row-1 {
-    max-width: 815px;
+    max-width: 807px;
 }
 
 #portfolio {
@@ -34,30 +33,53 @@ a:hover {
 }
 
 .portfolio{
-    padding: 40px;
+    padding: 20px;
 }
 
 .portfolio-1 img[src="./assets/images/20200319_000957.jpg"] {
-    max-width: 200px;
+    float: left;
+    max-width: 275px;
+    min-width: 275px;
+    height: auto;
+}
+.portfolio-2 img[src="https://i.picsum.photos/id/570/200/200.jpg?hmac=fgqmD9u8TqyXJG9fhqV-EbhIUXYwTIxfsPiNfaD28_Y"] {
+    float: left;
+    max-width: 275px;
+    min-width: 275px;
+    height: auto;
+}
+.portfolio-3 img[src="https://i.picsum.photos/id/994/200/200.jpg?hmac=a0dwH_eftBXVmeonrMy5xNmGDPwiXgXrzUjjUQLEtR8"] {
+    float: left;
+    max-width: 275px;
+    min-width: 275px;
+    height: auto;
+}
+.portfolio-4 img[src="https://i.picsum.photos/id/27/200/200.jpg?hmac=CR097EjlzbMVaroKJsDHX-nARM-O-4gnpDICBxhqbEU"] {
+    float: left;
+    max-width: 275px;
+    min-width: 275px;
+    height: auto;
+}
+.portfolio-5 img[src="https://i.picsum.photos/id/250/200/200.jpg?hmac=23TaEG1txY5qYZ70amm2sUf0GYKo4v7yIbN9ooyqWzs"] {
+    float: left;
+    max-width: 275px;
+    min-width: 275px;
     height: auto;
 }
 
+/* Could not consolidate with img selectors */
 .portfolio-1,.portfolio-2,.portfolio-3,.portfolio-4,.portfolio-5 {
     float: left;
-    width: 200px;
-    height: auto;
 }
-
 .portfolio-1,.portfolio-3,.portfolio-5 {
     padding-top: 20px;
-    padding-right: 20px;
 }
 .portfolio-2, .portfolio-4 {
     padding-top: 20px;
 }
 .portfolio-5 {
     padding-bottom: 30px;
-}
+} 
 
 /* Footer */
 #footer {
