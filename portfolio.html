@@ -1,16 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <title>Portfolio</title>
-</head>
-<body>
-    <header>
-        
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--reset.css-->
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!--Google Font-->
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+        <!--Stylesheet-->
+        <link rel="stylesheet" href="./assets/css/style-portfolio.css">
+
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <header>
+          <!--Navbar-->
+            <!-- *** Edit "class" names-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand-name" href="index.html" >Carmen Hui</a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="d-flex align-items-end navbar-nav ml-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>   
+        </header>
+        <article class="container">
+            <section class="card">
+                <section class="portfolio">
+                    <h1 id="portfolio">Portfolio</h1>
+                    <hr>
+                    <section class= "row">  
+                        <section class="col-sm">
+                            <section class="portfolio-1">
+                                <img src="https://i.picsum.photos/id/703/200/200.jpg?hmac=6zWxIBRmIf2e0jZTqvKBIwrc7wm-dPkvGky4go6Yyvg" alt="Rainbow in the sky.">
+                            </section>
+                        </section>
+                        <section>
+                            <section class="col-sm">
+                                <section class="portfolio-2">
+                                    <img src="https://i.picsum.photos/id/570/200/200.jpg?hmac=fgqmD9u8TqyXJG9fhqV-EbhIUXYwTIxfsPiNfaD28_Y" alt="Forest.">
+                                </section>
+                            </section>
+                        </section>  
+                    </section>
+                    <section class="row">
+                        <section class="col-sm">
+                                <section class="portfolio-3">
+                                    <img src="https://i.picsum.photos/id/994/200/200.jpg?hmac=a0dwH_eftBXVmeonrMy5xNmGDPwiXgXrzUjjUQLEtR8" alt="Horizon.">
+                                </section>
+                        </section>
+                        <section class="col-sm">
+                            <section class="portfolio-4">
+                                <img src="https://i.picsum.photos/id/27/200/200.jpg?hmac=CR097EjlzbMVaroKJsDHX-nARM-O-4gnpDICBxhqbEU" alt="Sunset at the beach.">
+                            </section>
+                        </section>
+                    </section>
+                        <section class="row">
+                            <section class="col-sm">
+                                <section class="portfolio-5">
+                                    <img src="https://i.picsum.photos/id/250/200/200.jpg?hmac=23TaEG1txY5qYZ70amm2sUf0GYKo4v7yIbN9ooyqWzs" alt="Camera.">
+                                </section>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </article>
+    </body>
     
-</body>
+    <!--Footer-->
+    <footer class="footer">
+        <div id="footer"></div>
+        <h5>&copy;Copyright</h5>
+    </footer>
 </html>
