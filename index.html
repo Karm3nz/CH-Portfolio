@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0", shrink-to-fit="no">
         <!--reset.css-->
         <link rel="stylesheet" href="./assets/css/reset.css">
         <!--Bootstrap-->
@@ -17,10 +17,9 @@
     <body>
         <header>
             <!--Navbar-->
-            <!-- ***Still need to add links to hrefssss!!!!-->
             <!-- *** Edit "class" names-->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Carmen Hui</a>
+                <a class="navbar-brand-name" href="index.html" >Carmen Hui</a>
                 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -29,45 +28,46 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="d-flex align-items-end navbar-nav ml-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
                         </li>
                     </ul>
                 </div>
             </nav>
-
-
         </header>
         <!--About Me-->
         <!-- ***Remember to check if article can replace/consolidate div for grid system-->
-        <div class="container">
-            <div class="row">
-                <div class="col-8">
-                    <article class="card">
+        <article class="container-fluid">
+            <section class="row">
+                <section class="col-8">
+                    <section class="card">
                         <section class="aboutme">
                             <h1 id="aboutme">About Me</h1>
                             <hr>
                             <p>
-                            <img src="./assets/images/img.png" alt="Boats in the horizon">
+                            <img src="./assets/images/IMG_20160506_033319.jpg" alt="Picture of me.">
 
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Hello, my name is Carmen. I graduated Ryerson University with a BComm degree majoring in human resources. Nearing graduation, I became more and more aware that human resources was not going to be my career. I took some time after graduation to figure out what I wanted to pursue next. With advice from peers, some basic work from a friend studying computer science, as well as further research, I found myself wanting to learn more.
                             </p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                         </section>
-                    </article>
-                </div>
-            </div>
-        </div>
-        
+                    </section>
+                </section>
+            </section>
+        </article>
+        <!--Javascript-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </body>
     <!--Footer-->
-    <!-- *** Add padding -->
     <footer class="footer">
+        <div id="footer"></div>
         <h5>&copy;Copyright</h5>
     </footer>
 </html>
