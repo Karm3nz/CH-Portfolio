@@ -18,13 +18,13 @@ a:hover {
 }
 
 /* Portfolio */
-.container {
+.container-fluid {
     padding-top: 50px;
     padding-bottom: 130px;
-    min-width: 450px;
+    min-width: 480px;
 }
 .row-1 {
-    max-width: 807px;
+    max-width: 825px;
 }
 
 #portfolio {
@@ -33,9 +33,10 @@ a:hover {
 }
 
 .portfolio{
-    padding: 20px;
+    padding: 15px;
 }
 
+/* Portfolio images */
 .portfolio-1 img[src="./assets/images/20200319_000957.jpg"] {
     float: left;
     max-width: 275px;
@@ -67,15 +68,18 @@ a:hover {
     height: auto;
 }
 
-/* Could not consolidate with img selectors */
+/* Could not consolidate with portfolio img selectors */
 .portfolio-1,.portfolio-2,.portfolio-3,.portfolio-4,.portfolio-5 {
     float: left;
 }
 .portfolio-1,.portfolio-3,.portfolio-5 {
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
 }
 .portfolio-2, .portfolio-4 {
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .portfolio-5 {
     padding-bottom: 30px;
