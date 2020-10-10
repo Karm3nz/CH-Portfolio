@@ -21,8 +21,13 @@ a:hover {
 .container {
     padding-top: 50px;
     padding-bottom: 130px;
-    max-width: fit-content;
+    min-width: 500px;
 }
+
+.row-1 {
+    max-width: 815px;
+}
+
 #portfolio {
     font-family: 'Playfair Display', serif;
     color: rgb(39, 170, 170);
@@ -32,8 +37,14 @@ a:hover {
     padding: 40px;
 }
 
-.portfolio-1,.portfolio-2,.portfolio-3,.portfolio-4,.portfolio-5 {
+.portfolio-1 img[src="./assets/images/20200319_000957.jpg"] {
     max-width: 200px;
+    height: auto;
+}
+
+.portfolio-1,.portfolio-2,.portfolio-3,.portfolio-4,.portfolio-5 {
+    float: left;
+    width: 200px;
     height: auto;
 }
 

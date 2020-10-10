@@ -22,6 +22,7 @@ a:hover {
 .container {
     padding-top: 50px;
     padding-bottom: 130px;
+    min-width: 560px;
 }
 
 #aboutme {
@@ -33,8 +34,7 @@ a:hover {
     padding: 40px;
 }
 
-.aboutme img[src="./assets/images/img.png"] {
-    padding-top: 20px;
+.aboutme img[src="./assets/images/IMG_20160506_033319.jpg"] {
     padding-right: 20px;
     padding-bottom: 20px;
     float: left;

@@ -17,9 +17,21 @@ a:hover {
     color: rgb(39, 170, 170);
 }
 
+/* Contact */
 
+.container {
+    padding-top: 50px;
+    padding-bottom: 130px;
+    min-width: 590px;
+}
 
-
+.contact {
+    padding: 30px;
+}
+#contact {
+    font-family: 'Playfair Display', serif;
+    color: rgb(39, 170, 170);
+}
 
 /* Footer */
 #footer {
