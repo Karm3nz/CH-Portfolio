@@ -23,7 +23,6 @@ From this project, I've learned that patience is key, other times you need to co
 * [Credits](#credits)
 * [License](#license)
 
-
 ## Installation
 
 ### Steps:
@@ -758,6 +757,4 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
-## Badges
-/w3c-validation/:parser?preset=HTML%2C%20SVG%201.1%2C%20MathML%203.0&targetUrl=https%3A%2F%2Fvalidator.nu%2F
 
