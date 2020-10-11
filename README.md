@@ -23,7 +23,6 @@ From this project, I've learned that patience is key, other times you need to co
 * [Credits](#credits)
 * [License](#license)
 
-
 ## Installation
 
 ### Steps:
