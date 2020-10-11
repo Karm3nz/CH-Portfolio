@@ -32,13 +32,27 @@ From this project, I've learned that patience is key, other times you need to co
 2) Check if an internet browswer is installed. If so, go to step 4).
 3) Install an internet browser of your choice. 
 4) Open up internet web browser.
-5) In the address bar, type in : XXXXXX and hit "enter" on the keyboard.
+5) In the address bar, type in :  https://karm3nz.github.io/CH-Portfolio/ and hit "enter" on the keyboard.
 
 ## Usage 
 
-CH Portfolio website allows web creator to visually showcase best work, display accomplishments, skills and potential.
+CH Portfolio website allows the web creator to visually showcase best work, display accomplishments, skills and potential.
 
-To arrive at Horiseon's web page type in : XXXXXXXX on the address bar on the web browser to get to webpage.
+To arrive at CH Portfolio web page, type in :  https://karm3nz.github.io/CH-Portfolio/ on the address bar on the web browser and hit the "enter" key.
+
+![CH Portfolio Home Screenshot](ch_portfolio_aboutme.png)
+
+On the About Me home page, the user can read web creator's biography. At the top the user can utilize the navigation bar to navigate to the Portfolio page as well as Contact page.
+
+![CH Portfolio, Portfolio page Screenshot](ch_portfolio_portfolio.png)
+
+![CH Portfolio Contact page Screenshot](ch_portfolio_contact.png)
+
+If user is accessing the webpage from a tablet or a smartphone, the the user will see the toggle become responsive to the smaller display resolution by becoming a hamburger menu. 
+
+![CH Portfolio, Hamburger Menu Screenshot](ch_portfolio_toggle.png)
+
+![CH Portfolio, Hamburger Menue pull-down Screenshot](ch_portfolio_toggle_dropdown.png)
 
 ## Credits
 
